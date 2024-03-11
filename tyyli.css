@@ -187,7 +187,7 @@ footer {
 /* tietokoneen ruudulle desktop*/
 @media only screen and (min-width: 1025px) {
     #etusivu {
-        background-image: url(kuvat/herkku.jpg);
+        background-image: url(Kuvat/herkku.jpg);
         background-size: cover;
         height: 400px;
     }
@@ -213,7 +213,7 @@ footer {
 /* tablettikoko */
 @media only screen and (min-width: 421px) and (max-width: 1024px) {
     #etusivu {
-        background-image: url(kuvat/herkku.jpg);
+        background-image: url(Kuvat/herkku.jpg);
         background-size: cover;
         height: 400px;
     }
@@ -245,7 +245,7 @@ footer {
     /* mobiilikoko */
     @media screen and (max-width: 400px) {
         #etusivu {
-            background-image: url(kuvat/herkku.jpg);
+            background-image: url(Kuvat/herkku.jpg);
             background-size: cover;
             height: 400px;
         }
