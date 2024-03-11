@@ -214,12 +214,12 @@ footer {
         #etusivu {
             background-image: url(Kuvat/herkku.jpg);
             background-size: cover;
-            height: 200px;
+            height: 300px;
         }
 
         #slogan {
-            font-size: 80px;
-            padding: 70px;
+            font-size: 70px;
+            padding: 50px;
         }
 
         .grid-container {
