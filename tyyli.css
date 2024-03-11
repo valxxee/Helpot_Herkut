@@ -23,7 +23,7 @@ figcaption {
     text-align: center;
 }
 
-#herkkuja {
+#herkku {
     width: 100%;
     /*     max-width: 400px; */
 }
@@ -41,25 +41,23 @@ header {
 }
 
 #slogan {
-    margin-top: 160px; /* Lisätään 50 pikseliä tilaa yläpuolelle */
-    margin-bottom: 30px; /* Lisätään 20 pikseliä tilaa alapuolelle */
-    background-color: white; /* Asetetaan taustaväri valkoiseksi */
-    display: block; /* Asetetaan elementti inline-blockiksi */
-    padding: 10px 20px; /* Lisätään sisätilaa 10 pikseliä ylös/alas ja 20 pikseliä vasemmalle/oikealle */
-    border-radius: 5px; /* Pyöristetään kulmat 5 pikseliin */
+    margin-top: 160px;
+    margin-bottom: 30px; 
+    background-color: white; 
+    display: block; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
 }
 
 #toimintakehote {
-    margin-top: 10px; /* Lisätään 20 pikseliä tilaa yläpuolelle */
-    margin-bottom: 0px; /* Lisätään 50 pikseliä tilaa alapuolelle */
+    margin-top: 10px; 
+    margin-bottom: 0px;
 }
 
 #sivuvalikko {
-    float: left; /* Asetetaan sivuvalikko vasempaan laitaan */
-    margin-right: 20px; /* Lisätään hieman tilaa oikealle puolelle */
+    float: left; 
+    margin-right: 20px; 
 }
-
-/* fontit uusi maanantaina koodattu SHIT ALT A */
 
 h1 {
     font-size: 60px;
@@ -124,11 +122,6 @@ footer {
     cursor: pointer;
 }
 
-#kartta {
-    padding: 20px;
-    max-width: 90%;
-}
-
 .alisivu-sisalto {
     margin: 0% 8% 3% 8%;
     flex-direction: column;
@@ -136,33 +129,17 @@ footer {
     padding: 0px;
 }
 
+.sisaltoa {
+    margin: 1% 10% 10% 10%;
+    flex-direction: column;
+    background-color: rgb(251, 255, 255);
+    padding: 8px;
+}
+
 .kuva {
   /*   max-width: 400px; */
     vertical-align: middle;
     width: 100%;
-}
-
-/* Lisää tarvittaessa muita tyylejä */
-.video-container {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; /* 16:9-kuvasuhde */
-    height: 0;
-}
-
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.galleria-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    margin: 20px;
 }
 
 .grid-kuva {
@@ -174,13 +151,6 @@ footer {
     width: 100%;
     height: auto;
     border-radius: 30px;
-}
-
-.sisaltoa {
-    margin: 0% 10% 3% 10%;
-    flex-direction: column;
-    background-color: rgb(251, 255, 255);
-    padding: 3px;
 }
 
 
@@ -236,9 +206,6 @@ footer {
     footer {
         flex-direction: column;
         text-align: center;
-    }
-    .galleria-container {
-        grid-template-columns: repeat(1, 1fr); /* Yksi sarake mobiilissa */
     }
 }
 
