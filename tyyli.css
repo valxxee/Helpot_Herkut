@@ -214,12 +214,12 @@ footer {
         #etusivu {
             background-image: url(Kuvat/herkku.jpg);
             background-size: cover;
-            height: 400px;
+            height: 300px;
         }
 
         #slogan {
-            font-size: 20px;
-            padding: 20px;
+            font-size: 50px;
+            padding: 50px;
         }
 
         .grid-container {
@@ -241,8 +241,5 @@ footer {
             background-color: rgb(255, 227, 208);
             color: rgb(16, 4, 4);
         }
-        .galleria-container {
-            grid-template-columns: repeat(1, 1fr); /* Yksi sarake mobiilissa */
-        }
-        
+    
     }
