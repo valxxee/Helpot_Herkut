@@ -5,50 +5,55 @@
 	<title>Helpot Herkut</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Linkitetty CSS tyylitiedosto -->
+	<!-- Linkitetään tähän CSS tyylitiedosto -->
 	<link rel="stylesheet" href="tyyli.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        nav {
+            float: left;
+            margin-right: 20px;
+        }
+    </style>
+</head>
 </head>
 
 <body>
 	<header id="etusivu">
-		<!-- navigaatio -->
+		<!-- Tästä alkaa navigaatio -->
 		<nav>
-			
 			<a href="index.html" id="valittu">Helpot Herkut</a>
 			<a href="reseptit.html">Reseptit</a>
 			<a href="yhteys.html">Ota yhteyttä</a>
 		</nav>
 
-		<!-- vaihdettu nav paikka ja uusi id = slogan -->
+		<!-- Tänne vaihdettu nav paikka ja uusi id = slogan -->
 		<h1 id="slogan">Helpot Herkut</h1>
 
-		<!-- toimintakehote ja linkki ota yhteyttä sivulle Comment with SHIFT ALT A -->
-		<a href="yhteys.html" id="toimintakehote">Seuraa meitä</a>
+		<!-- Tänne tulee toimintakehote ja linkki ota yhteyttä sivulle Comment with SHIFT ALT A -->
+		<a href="yhteys.html" id="toimintakehote">Seuraa meitä!</a>
 	</header>
 
-	<section class="grid-container">
-		<div class="grid-teksti1">
-			<p class="esittely">Tällä sivustolla...</h2>
-			<p><strong>Reseptimme</strong> ...</p>
-			<h3>Reseptit</h3>
-			<p>...</p>
-			   <p>...</p>
-			      <p>...</p>
-			         <p></p>
-			<br>
-			<br>
-			<br>
-
+	<div class="sisaltoa">
+		<div>
+  
+			  <section class="grid-container" id="Reseptit">
+				 <div class="grid-teksti1">
+					<h2>Suussa sulavavia elämyksiä♡</h2>
+						<p>Tekeekö mieli jotain makeaa purtavaa? Tällä sivustolla esittelemme helppoja suosikki reseptejämme, jotka eivät vaadi paljon aikaa tai vaivaa. 
+							Seuraa meitä myös sosiaalisessa mediassa, jotta saat ajankohtaisia vinkkejä helppoihin herkkuihin!</p>
+						
+				 </div>
+				 <div class="grid-kuva">
+					<figure>
+						<img class="kuva" src="kuvat/pannacotta.jpg"
+						alt="kuva pinotuista pannukakuista jotka ovat päällystetty mansikkahillolla ja siirapilla">
+					<figcaption>Taikaa ja Aromeja: Makeat pannukakut sulavat suussa</figcaption>
+					   
+					</figure>
+				 </div>
+			  </section>
 		</div>
-		<div class="grid-kuva">
-			<figure>
-				<img id="Herkkuja" src="kuvat/Herkkuja.jpg"
-					alt="kuva makeista herkuista">
-				<figcaption>Tässä on kuva makeistaherkuista</figcaption>
-			</figure>
-		</div>
-
+	 </div>
 
 	</section>
 
@@ -58,14 +63,13 @@
 	<footer>
 		<div>
 			<a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
-			<a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
 			<a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
 		</div>
 		<div>
-			<p>2023, Helpot Herkut</p>
+			<p>Copyright &copy; 2023, Helpot Herkut</p>
 		</div>
 		<div>
-			<p><a href="mailto:info@helpotherkut.fi">info@helpotherkut.fi</a></p>
+			<p><a href="mailto:info@ticocafe.fi">info@ticocafe.fi</a></p>
 		</div>
 	</footer>
 
